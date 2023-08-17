@@ -15,7 +15,7 @@ C:/Users/redux/OneDrive/Masaüstü/Case_Barbar/Project_Case
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53489
+53737
 Successfully changed project path to: C:/Users/redux/OneDrive/Masaüstü/Case_Barbar/Project_Case
 C:/Users/redux/OneDrive/Masaüstü/Case_Barbar/Project_Case
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/redux/OneDrive/Masaüstü/Case_Barbar/Project_Case
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6656] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 4248982268 [EditorId] 4248982268 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LKBBK5H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2216] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2433660716 [EditorId] 2433660716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LKBBK5H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6656] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 4248982268 [EditorId] 4248982268 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LKBBK5H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2216] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2433660716 [EditorId] 2433660716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LKBBK5H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017718 seconds.
-- Loaded All Assemblies, in  0.503 seconds
+Registered in 0.017409 seconds.
+- Loaded All Assemblies, in  0.528 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.317 seconds
-Domain Reload Profiling: 817ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 894ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (141ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (154ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (208ms)
-				TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (180ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (318ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (369ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
+		SetupLoadedEditorAssemblies (277ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\redux\OneDrive\Masaüstü\Case_Barbar\Project_Case\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\redux\OneDrive\Masaüstü\Case_Barbar\Project_Case\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.498 seconds
-Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.890 seconds
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.748 seconds
-Domain Reload Profiling: 3098ms
-	BeginReloadAssembly (1354ms)
+- Finished resetting the current domain, in  0.874 seconds
+Domain Reload Profiling: 1761ms
+	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (3ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (144ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (119ms)
-	LoadAllAssembliesAndSetupDomain (695ms)
-		LoadAssemblies (1667ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (423ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (218ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (749ms)
+	FinalizeReload (875ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (504ms)
+		SetupLoadedEditorAssemblies (660ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (503ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3528.
-Memory consumption went from 113.9 MB to 113.9 MB.
-Total: 3.446600 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.280500 ms MarkObjects: 2.765700 ms  DeleteObjects: 0.159500 ms)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3528.
+Memory consumption went from 113.8 MB to 113.7 MB.
+Total: 3.492100 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.230400 ms MarkObjects: 2.903400 ms  DeleteObjects: 0.098600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,10 +180,217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 75329.300813 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '051ba24b750b10539520187b343497d7') in 0.139150 seconds
+  Time since last request: 76685.351420 seconds.
+  path: Assets/1_Sev_barbar
+  artifactKey: Guid(8709254f8f1cef3489959f8031bf0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar using Guid(8709254f8f1cef3489959f8031bf0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c4d3db68b82351ca56539b4c403185') in 0.002647 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.460505 seconds.
+  path: Assets/1_Sev_barbar/1_sev_barbar.fbx
+  artifactKey: Guid(1611594eda807d74c90ef8a3d08dc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/1_sev_barbar.fbx using Guid(1611594eda807d74c90ef8a3d08dc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662f9f46885a22bfd78724c12f904bf8') in 0.316023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 974
+========================================================================
+Received Import Request.
+  Time since last request: 58.248938 seconds.
+  path: Assets/1_Sev_barbar/1_sev_barbar.fbx
+  artifactKey: Guid(1611594eda807d74c90ef8a3d08dc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/1_sev_barbar.fbx using Guid(1611594eda807d74c90ef8a3d08dc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6cb31c212bb4bb56a0ccb7ac469fc1') in 0.545072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 980
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_eklentiler_BaseColor2.png
+  artifactKey: Guid(38ce9298720cda147a3c01f1b8bc07d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_eklentiler_BaseColor2.png using Guid(38ce9298720cda147a3c01f1b8bc07d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1434b20672dd765d74699b6246fb9a') in 0.039713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_eklentiler_Normal2.png
+  artifactKey: Guid(8df24fb3eb5f0de4e905e0b62feb04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_eklentiler_Normal2.png using Guid(8df24fb3eb5f0de4e905e0b62feb04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4e253d80b8ca1b979713379574af72') in 0.034967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_gözmat_BaseColor.png
+  artifactKey: Guid(5352b143ff64732418c2d7657e0e21cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_gözmat_BaseColor.png using Guid(5352b143ff64732418c2d7657e0e21cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9163f8f09b30ee85cb49676045071459') in 0.021186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_body_Normal.png
+  artifactKey: Guid(ae77884627961ea4db2879a516178d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_body_Normal.png using Guid(ae77884627961ea4db2879a516178d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f2c5abee44826f0703e4b7babbbf3') in 0.029836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_body_BaseColor.png
+  artifactKey: Guid(71e7d6df61bd9a641bfebe01a258eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_body_BaseColor.png using Guid(71e7d6df61bd9a641bfebe01a258eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac71b09401a6cb3369fae1083804a516') in 0.018982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/1_Sev_barbar/kılıcBase Color.png
+  artifactKey: Guid(3a8dc07bd74846140ad98a5e07d0f024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/kılıcBase Color.png using Guid(3a8dc07bd74846140ad98a5e07d0f024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdc56e71b46536eaa2682b0128159f2') in 0.026072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.213178 seconds.
+  path: Assets/1_Sev_barbar/1_sev_barbar.fbx
+  artifactKey: Guid(1611594eda807d74c90ef8a3d08dc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/1_sev_barbar.fbx using Guid(1611594eda807d74c90ef8a3d08dc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbb85e211505bf2f37caf10b0d5f402') in 0.255229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 980
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_eklentiler_Normal2.png
+  artifactKey: Guid(8df24fb3eb5f0de4e905e0b62feb04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_eklentiler_Normal2.png using Guid(8df24fb3eb5f0de4e905e0b62feb04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3129fc1b2e9da6b3f264f060787a29d') in 0.043210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/1_Sev_barbar/barbar_low_body_Normal.png
+  artifactKey: Guid(ae77884627961ea4db2879a516178d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Sev_barbar/barbar_low_body_Normal.png using Guid(ae77884627961ea4db2879a516178d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8278ca6c99e3cec4c21362b984d61091') in 0.030957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 58.267367 seconds.
+  path: Assets/6_Sev_Barbar
+  artifactKey: Guid(4503d14fd6487e44993ac24e8b166746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar using Guid(4503d14fd6487e44993ac24e8b166746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f033e4626c903b329544787ccbdfcde') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.026801 seconds.
+  path: Assets/6_Sev_Barbar/6sevbarbar01.fbx
+  artifactKey: Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/6sevbarbar01.fbx using Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df9864ea2af1f5f140b0d1fa50b7fca') in 0.155513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 49.772992 seconds.
+  path: Assets/6_Sev_Barbar/6sevbarbar01.fbx
+  artifactKey: Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/6sevbarbar01.fbx using Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc74c57b3bcf8c9d477885064a57669b') in 0.133389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/6_Sev_Barbar/barbar6sev_low_eklentiler_BaseColor.png
+  artifactKey: Guid(2024bc7052b3269448b145f48835404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbar6sev_low_eklentiler_BaseColor.png using Guid(2024bc7052b3269448b145f48835404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be71283a3656159275d97f8c5b672a52') in 0.035087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/6_Sev_Barbar/barbarkask_001_Normal.png
+  artifactKey: Guid(5aceabdde431cec4f9005aedcac4101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbarkask_001_Normal.png using Guid(5aceabdde431cec4f9005aedcac4101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccf0bc77fb4d6045f96d3bd361d93b7') in 0.034176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/6_Sev_Barbar/barbarkask_001_BaseColor.png
+  artifactKey: Guid(2bbe79e27771fc9408787f471ec18a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbarkask_001_BaseColor.png using Guid(2bbe79e27771fc9408787f471ec18a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbbd20af78e970f97aecdef084e4d4b') in 0.036447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/6_Sev_Barbar/barbar6sev_low_eklentiler_Normal.png
+  artifactKey: Guid(fc036e0d29579ae439bc903729bd68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbar6sev_low_eklentiler_Normal.png using Guid(fc036e0d29579ae439bc903729bd68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c061ffd9b344f1e3135f366656d14a5') in 0.050579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.309916 seconds.
+  path: Assets/6_Sev_Barbar/6sevbarbar01.fbx
+  artifactKey: Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/6sevbarbar01.fbx using Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12c1452a0cd92f6b97f0c477b6e9032') in 0.161341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/6_Sev_Barbar/barbarkask_001_Normal.png
+  artifactKey: Guid(5aceabdde431cec4f9005aedcac4101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbarkask_001_Normal.png using Guid(5aceabdde431cec4f9005aedcac4101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdb4e2f5b0ddfc8be053915c7103398') in 0.035033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/6_Sev_Barbar/barbar6sev_low_eklentiler_Normal.png
+  artifactKey: Guid(fc036e0d29579ae439bc903729bd68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbar6sev_low_eklentiler_Normal.png using Guid(fc036e0d29579ae439bc903729bd68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954d704d4f9f83f3d76c12d56c86216d') in 0.031201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 46.709839 seconds.
+  path: Assets/6_Sev_Barbar/6sevbarbar01.fbx
+  artifactKey: Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/6sevbarbar01.fbx using Guid(89493cfa03a5db544a8a363c4f88e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b479676e82ccb273d1c6d8aa7a61ff') in 0.209325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/6_Sev_Barbar/barbar_low_body_BaseColor.png
+  artifactKey: Guid(25f1ce9f79e26eb459c31c5db91f11cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbar_low_body_BaseColor.png using Guid(25f1ce9f79e26eb459c31c5db91f11cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50790fda2ae6caa94ddad6b3127ff748') in 0.026212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/6_Sev_Barbar/barbar_low_gözmat_BaseColor.png
+  artifactKey: Guid(c6d4321ba6ec59046b9e75eabd686afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbar_low_gözmat_BaseColor.png using Guid(c6d4321ba6ec59046b9e75eabd686afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb13af3349b5b4dbb16ae77c295fbfe1') in 0.019715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/6_Sev_Barbar/barbar_low_body_Normal.png
+  artifactKey: Guid(414780ae183e0c74496178605b5c5c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/barbar_low_body_Normal.png using Guid(414780ae183e0c74496178605b5c5c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a886e72bce9c5a21c6463330269405b5') in 0.027577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/6_Sev_Barbar/kılıcBase Color.png
+  artifactKey: Guid(9efc7f369b36e444db70cc1ea7f62d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6_Sev_Barbar/kılıcBase Color.png using Guid(9efc7f369b36e444db70cc1ea7f62d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a824e023cfef6b127d7b2b50044a8da0') in 0.017079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
